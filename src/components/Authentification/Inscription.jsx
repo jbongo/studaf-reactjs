@@ -61,14 +61,7 @@ const Inscription = () => {
 										<input type="text" placeholder="Email" />
 										<i className="la la-envelope-o"></i>
 									</div>
-									<div className="dropdown-field">
-										<select data-placeholder="Please Select Specialism" className="chosen">
-											<option>Marketing & Communication</option>
-											<option>Finance</option>
-											<option>Art & Culture</option>
-											
-										</select>
-									</div>
+								
 									<div className="cfield">
 										<input type="text" placeholder="Phone Number" />
 										<i className="la la-phone"></i>
@@ -76,6 +69,8 @@ const Inscription = () => {
 									<button type="submit">Enregistrer</button>
 								</form>
 								<div className="extra-login">
+								<span>J'ai déjà un compte</span>
+
 									<span>Ou</span>
 									<div className="login-social">
 										<a className="fb-login" href="#" title=""><i className="fa fa-facebook"></i></a>

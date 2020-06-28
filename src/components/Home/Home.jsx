@@ -9,12 +9,12 @@ class Home extends React.Component {
     render(){
     return (
         <>
-            
+           
      
 
 <div className="theme-layout" id="scrollup">
 	
-    <TopMenuHome/>
+    {/* <TopMenuHome/> */}
 
 
 	<section>
@@ -239,6 +239,7 @@ class Home extends React.Component {
 								<span className="fav-job"><i className="la la-heart-o"></i></span>
 								<span className="job-is ft">CDI</span>
 							</div>
+					
 
 						</div>
 					</div>
@@ -252,9 +253,78 @@ class Home extends React.Component {
 		</div>
 	</section>
 
+	<section>
+		<div className="block">
+			<div data-velocity="-.1"  className="parallax scrolly-invisible layer color light"></div>
+			<div className="container">
+				<div className="row">
+					<div className="col-lg-12">
+						<div className="heading light">
+							<h2>Dernières offres</h2>							
+						</div>
+						<div className="reviews-sec" id="reviews-carousel">
+						
+							<div className="col-lg-6">
+								<div className="reviews">
+									<img src="http://placehold.it/101x101" alt="" />
+									<h3>Expert comptable<span>Société générale</span></h3>
+									<p> <span className="job-lctn"><i className="la la-map-marker"></i>Bamako, Mali</span>
+										<span className="fav-job"><i className="la la-heart-o"></i><span className="job-is ft">CDI</span></span>
+										
+									</p>
+								</div>
+							</div>
+							<div className="col-lg-6">
+								<div className="reviews">
+									<img src="http://placehold.it/101x101" alt="" />
+									<h3>Expert comptable<span>Société générale</span></h3>
+									<p> <span className="job-lctn"><i className="la la-map-marker"></i>Bamako, Mali</span>
+										<span className="fav-job"><i className="la la-heart-o"></i><span className="job-is ft">CDI</span></span>
+										
+									</p>
+								</div>
+							</div>
+
+							<div className="col-lg-6">
+								<div className="reviews">
+									<img src="http://placehold.it/101x101" alt="" />
+									<h3>Expert comptable<span>Société générale</span></h3>
+									<p> <span className="job-lctn"><i className="la la-map-marker"></i>Bamako, Mali</span>
+										<span className="fav-job"><i className="la la-heart-o"></i><span className="job-is ft">CDI</span></span>
+										
+									</p>
+								</div>
+							</div>
+								<div className="col-lg-6">
+								<div className="reviews">
+									<img src="http://placehold.it/101x101" alt="" />
+									<h3>Expert comptable<span>Société générale</span></h3>
+									<p> <span className="job-lctn"><i className="la la-map-marker"></i>Bamako, Mali</span>
+										<span className="fav-job"><i className="la la-heart-o"></i><span className="job-is ft">CDI</span></span>
+										
+									</p>
+								</div>
+							</div>
+							<div className="col-lg-6">
+								<div className="reviews">
+									<img src="http://placehold.it/101x101" alt="" />
+									<h3>Expert comptable<span>Société générale</span></h3>
+									<p> <span className="job-lctn"><i className="la la-map-marker"></i>Bamako, Mali</span>
+										<span className="fav-job"><i className="la la-heart-o"></i><span className="job-is ft">CDI</span></span>
+										
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</div>
+	</section>
 
 
-{/* <Footer/> */}
+
+<Footer/>
 </div>
 
 
@@ -263,7 +333,9 @@ class Home extends React.Component {
 
         </>
         )
-    }
+	}
+	
+
 }
 
 export default Home

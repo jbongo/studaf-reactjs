@@ -11,7 +11,7 @@ const Aside = () => {
     <>
 
     
-	<aside className="col-lg-3 column">
+	<aside className="col-lg-12 column">
 						<div className="widget">
 				 			<div className="search_widget_job no-margin">
 				 				<div className="field_w_search">

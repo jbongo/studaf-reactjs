@@ -180,8 +180,39 @@ const Profile = () => {
 					 				</div>
 					 			</form>
 					 		</div>
+							 
+							 <div className="contact-edit" id="ci">
+					 			<h3>Changement du mot de passe</h3>
+								 <form>
+						 				<div className="row">
+						 					<div className="col-lg-6">
+						 						<span className="pf-title">Ancien mot de passe</span>
+						 						<div className="pf-field">
+						 							<input type="password" />
+						 						</div>
+						 						<span className="pf-title">Nouveau mot de passe</span>
+						 						<div className="pf-field">
+						 							<input type="password" />
+						 						</div>
+						 						<span className="pf-title">Confirmez le mot de passe</span>
+						 						<div className="pf-field">
+						 							<input type="password" />
+						 						</div>
+						 						<button type="submit">Modifier</button>
+						 					</div>
+						 					<div className="col-lg-6">
+						 						<i className="la la-key big-icon"></i>
+						 					</div>
+						 				</div>
+						 			</form>
+					 		</div>
+
 					 	</div>
 					</div>
+
+			
+
+
 				 </div>
 			</div>
 		</div>

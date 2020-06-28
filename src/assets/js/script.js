@@ -1,6 +1,8 @@
 $(document).on('ready',function(){
     "use strict";
 
+    console.log("xxxxxxxxxxxxxxx");
+    
     
     /* =============== Ajax Contact Form ===================== */
     $('#contactform').submit(function(){

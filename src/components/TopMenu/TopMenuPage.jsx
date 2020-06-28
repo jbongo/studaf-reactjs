@@ -145,8 +145,9 @@ const TopMenuHome = () => {
 				<div className="btn-extars">
 					<a href="#" title="" className="post-job-btn"><i className="la la-plus"></i>Postuler</a>
 					<ul className="account-btns">
-					<li className="signup-popup"><NavLink to="/inscription" title=""><i className="la la-key"></i> Inscription</NavLink></li>
-						<li className="signin-popup"><NavLink to="/connexion" title=""><i className="la la-external-link-square"></i> Connexion</NavLink></li>
+					{/* <li className="signup-popup"><NavLink to="/inscription" title=""><i className="la la-key"></i> Inscription</NavLink></li> */}
+					<li className="signin-popup"><NavLink to="/mon-compte" title=""><i className="la la-key"></i> Mon compte</NavLink></li>
+						
 					</ul>
 				</div>
 				<nav>

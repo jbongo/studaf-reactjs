@@ -14,7 +14,7 @@ const LeftMenuRecru = () => {
                         <li><NavLink to="/recruteur/cv" title=""><i className="la la-paper-plane"></i>CV</NavLink></li>
                         <li><NavLink to="/recruteur/add-job" title=""><i className="la la-file-text"></i>Ajouter une offre</NavLink></li>
                         <li><NavLink to="/recruteur/alertes" title=""><i className="la la-flash"></i>Mes alertes</NavLink></li>
-                        <li><NavLink to="/recruteur/identifiants" title=""><i className="la la-lock"></i>Modifier mes identifiants</NavLink></li>
+                        {/* <li><NavLink to="/recruteur/identifiants" title=""><i className="la la-lock"></i>Modifier mes identifiants</NavLink></li> */}
                         <li><NavLink to="/logout" title=""><i className="la la-unlink"></i>Déconnexion</NavLink></li>
                     </ul>
                 </div>

@@ -248,39 +248,43 @@ const ChangePassword = () => {
 												</select>
 					 						</div>
 					 					</div>
-					 					<div className="col-lg-6">
-					 						<span className="pf-title">Find On Map</span>
-					 						<div className="pf-field">
-					 							<input type="text" placeholder="Collins Street West, Victoria 8007, Australia." />
-					 						</div>
-					 					</div>
-					 					<div className="col-lg-3">
-					 						<span className="pf-title">Latitude</span>
-					 						<div className="pf-field">
-					 							<input type="text" placeholder="41.1589654" />
-					 						</div>
-					 					</div>
-					 					<div className="col-lg-3">
-					 						<span className="pf-title">Longitude</span>
-					 						<div className="pf-field">
-					 							<input type="text" placeholder="21.1589654" />
-					 						</div>
-					 					</div>
-					 					<div className="col-lg-12">
-					 						<a href="#" title="" className="srch-lctn">Search Location</a>
-					 					</div>
-					 					<div className="col-lg-12">
-					 						<span className="pf-title">Maps</span>
-					 						<div className="pf-map">
-					 							<div id="map_div"></div>
-					 						</div>
-					 					</div>
+					 				
+					 					
 					 					<div className="col-lg-12">
 					 						<button type="submit">Update</button>
 					 					</div>
 					 				</div>
 					 			</form>
 					 		</div>
+
+
+							 <div className="contact-edit" id="ci">
+					 			<h3>Changement du mot de passe</h3>
+								 <form>
+						 				<div className="row">
+						 					<div className="col-lg-6">
+						 						<span className="pf-title">Ancien mot de passe</span>
+						 						<div className="pf-field">
+						 							<input type="password" />
+						 						</div>
+						 						<span className="pf-title">Nouveau mot de passe</span>
+						 						<div className="pf-field">
+						 							<input type="password" />
+						 						</div>
+						 						<span className="pf-title">Confirmez le mot de passe</span>
+						 						<div className="pf-field">
+						 							<input type="password" />
+						 						</div>
+						 						<button type="submit">Modifier</button>
+						 					</div>
+						 					<div className="col-lg-6">
+						 						<i className="la la-key big-icon"></i>
+						 					</div>
+						 				</div>
+						 			</form>
+					 		</div>
+
+
 					 	</div>
 					</div>
 				 </div>

@@ -14,7 +14,7 @@ const LeftMenuCandi = () => {
                         <li><NavLink to="/candidat/favoris" title=""><i className="la la-briefcase"></i>Mes favoris</NavLink></li>
                         <li><NavLink to="/candidat/candidatures" title=""><i className="la la-file-text"></i>Mes candidatures</NavLink></li>
                         <li><NavLink to="/candidat/alertes" title=""><i className="la la-flash"></i>Mes alertes</NavLink></li>
-                        <li><NavLink to="/candidat/identifiants" title=""><i className="la la-lock"></i>Modifier mes identifiants</NavLink></li>
+                        {/* <li><NavLink to="/candidat/identifiants" title=""><i className="la la-lock"></i>Modifier mes identifiants</NavLink></li> */}
                         <li><NavLink to="/logout" title=""><i className="la la-unlink"></i>Déconnexion</NavLink></li>
                     </ul>
                 </div>
