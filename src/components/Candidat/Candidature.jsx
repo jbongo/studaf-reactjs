@@ -16,12 +16,12 @@ const Candidatures = () => {
 				 	<div className="col-lg-9 column">
 				 		<div className="padding-left">
 					 		<div className="manage-jobs-sec">
-					 			<h3>Manage Jobs</h3>
+					 			<h3>Mes candidatures</h3>
 						 		<table>
 						 			<thead>
 						 				<tr>
-						 					<td>Applied Job</td>
-						 					<td>Position</td>
+						 					<td>Candidatures</td>
+						 					<td>Offre</td>
 						 					<td>Date</td>
 						 					<td></td>
 						 				</tr>
@@ -30,87 +30,66 @@ const Candidatures = () => {
 						 				<tr>
 						 					<td>
 						 						<div className="table-list-title">
-						 							<i>Massimo Artemisis</i><br />
-						 							<span><i className="la la-map-marker"></i>Sacramento, California</span>
+						 							<i>Société Génnérale</i><br />
+						 							<span><i className="la la-map-marker"></i>Libreville, Gabon</span>
 						 						</div>
 						 					</td>
 						 					<td>
 						 						<div className="table-list-title">
-						 							<h3><a href="#" title="">Web Designer / Developer</a></h3>
+						 							<h3><a href="#" title="">Développeur mobile</a></h3>
 						 						</div>
 						 					</td>
-						 					<td>
-						 						<span>October 27, 2017</span><br />
+						 					<td><span>3 septembre 2020</span><br />
 						 					</td>
 						 					<td>
 						 						<ul className="action_job">
-						 							<li><span>Delete</span><a href="#" title=""><i className="la la-trash-o"></i></a></li>
+						 							<li><span>Supprimer</span><a href="#" title=""><i className="la la-trash-o"></i></a></li>
 						 						</ul>
 						 					</td>
 						 				</tr>
-						 				<tr>
+										 
+										 <tr>
 						 					<td>
 						 						<div className="table-list-title">
-						 							<i>StarHealth</i><br />
-						 							<span><i className="la la-map-marker"></i>Rennes, France</span>
+						 							<i>Société Génnérale</i><br />
+						 							<span><i className="la la-map-marker"></i>Libreville, Gabon</span>
 						 						</div>
 						 					</td>
 						 					<td>
 						 						<div className="table-list-title">
-						 							<h3><a href="#" title="">Regional Sales Manager South east Asia</a></h3>
+						 							<h3><a href="#" title="">Développeur mobile</a></h3>
 						 						</div>
 						 					</td>
-						 					<td>
-						 						<span>October 27, 2017</span><br />
+						 					<td><span>3 septembre 2020</span><br />
 						 					</td>
 						 					<td>
 						 						<ul className="action_job">
-						 							<li><span>Delete</span><a href="#" title=""><i className="la la-trash-o"></i></a></li>
+						 							<li><span>Supprimer</span><a href="#" title=""><i className="la la-trash-o"></i></a></li>
 						 						</ul>
 						 					</td>
 						 				</tr>
-						 				<tr>
+
+										 <tr>
 						 					<td>
 						 						<div className="table-list-title">
-						 							<i>Altes Bank</i><br />
-						 							<span><i className="la la-map-marker"></i>Istanbul, Turkey</span>
+						 							<i>Société Génnérale</i><br />
+						 							<span><i className="la la-map-marker"></i>Libreville, Gabon</span>
 						 						</div>
 						 					</td>
 						 					<td>
 						 						<div className="table-list-title">
-						 							<h3><a href="#" title="">C Developer (Senior) C .Net</a></h3>
+						 							<h3><a href="#" title="">Développeur mobile</a></h3>
 						 						</div>
 						 					</td>
-						 					<td>
-						 						<span>October 27, 2017</span><br />
+						 					<td><span>3 septembre 2020</span><br />
 						 					</td>
 						 					<td>
 						 						<ul className="action_job">
-						 							<li><span>Delete</span><a href="#" title=""><i className="la la-trash-o"></i></a></li>
+						 							<li><span>Supprimer</span><a href="#" title=""><i className="la la-trash-o"></i></a></li>
 						 						</ul>
 						 					</td>
 						 				</tr>
-						 				<tr>
-						 					<td>
-						 						<div className="table-list-title">
-						 							<i>MediaLab</i><br />
-						 							<span><i className="la la-map-marker"></i>Ajax, Ontario</span>
-						 						</div>
-						 					</td>
-						 					<td>
-						 						<div className="table-list-title">
-						 							<h3><a href="#" title="">Marketing Director</a></h3>
-						 						</div>
-						 					</td>
-						 					<td>
-						 						<span>October 27, 2017</span><br />
-						 					</td>
-						 					<td>
-						 						<ul className="action_job">
-						 							<li><span>Delete</span><a href="#" title=""><i className="la la-trash-o"></i></a></li>
-						 						</ul>
-						 					</td>
-						 				</tr>
+						 				
 						 			</tbody>
 						 		</table>
 					 		</div>

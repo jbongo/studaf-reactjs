@@ -1,6 +1,7 @@
 import React from 'react'
 
 import TopMenuPage from '../TopMenu/TopMenuPage'
+import {NavLink} from 'react-router-dom';
 
 
 
@@ -69,9 +70,10 @@ const Inscription = () => {
 									<button type="submit">Enregistrer</button>
 								</form>
 								<div className="extra-login">
-								<span>J'ai déjà un compte</span>
+											
+								<span><NavLink to="/connexion" title="">J'ai déjà un compte <i class="la la-long-arrow-right"></i></NavLink></span>
 
-									<span>Ou</span>
+									
 									<div className="login-social">
 										<a className="fb-login" href="#" title=""><i className="fa fa-facebook"></i></a>
 										<a className="li-login" href="#" title=""><i className="fa fa-linkedin"></i></a>

@@ -62,7 +62,8 @@ const Connexion = () => {
 									<button type="submit">Se Connecter</button>
 								</form>
 								<div className="extra-login">
-									<span>ou</span>
+								<span><NavLink to="/mon-compte" title="">Je crée un compte <i class="la la-long-arrow-right"></i></NavLink></span>
+
 									<div className="login-social">
 										<a className="fb-login" href="#" title=""><i className="fa fa-facebook"></i></a>
 										<a className="li-login" href="#" title=""><i className="fa fa-linkedin"></i></a>

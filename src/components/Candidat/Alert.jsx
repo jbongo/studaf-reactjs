@@ -19,71 +19,45 @@ const Alert = () => {
 				 	<div className="col-lg-9 column">
 				 		<div className="padding-left">
 					 		<div className="manage-jobs-sec">
-					 			<h3>Job Alerts</h3>
+					 			<h3>Mes alertes emplois</h3>
 						 		<table className="alrt-table">
 						 			<thead>
 						 				<tr>
-						 					<td>Alert Details</td>
-						 					<td className="text-right">Email Frequency</td>
+						 					<td>Détails</td>
+						 					<td className="text-right">Actions</td>
 						 				</tr>
 						 			</thead>
 						 			<tbody>
 						 				<tr>
 						 					<td>
 						 						<div className="table-list-title">
-						 							<h3><a href="#" title="">Test Title</a></h3>
-						 							<span>Search Keywords: 2, 60, Crawley RH10 8XH, United Kingdom</span>
+						 							<h3><a href="#" title="">Agent commercial</a></h3>
+						 							<span>Mots recherchés:  "Libreville, Agent, commerce"</span>
 						 						</div>
 						 					</td>
 						 					<td>
 						 						<ul className="action_job">
-						 							<li><span>Delete</span><a href="#" title=""><i className="la la-trash-o"></i></a></li>
+						 							<li><span>Supprimer</span><a href="#" title=""><i className="la la-trash-o"></i></a></li>
 						 						</ul>
-						 						<span>Never</span>
+						 						<span>5</span>
 						 					</td>
 						 				</tr>
-						 				<tr>
+
+										 <tr>
 						 					<td>
 						 						<div className="table-list-title">
-						 							<h3><a href="#" title="">Test Title</a></h3>
-						 							<span>Search Keywords: 2, 60, Crawley RH10 8XH, United Kingdom</span>
+						 							<h3><a href="#" title="">Agent commercial</a></h3>
+						 							<span>Mots recherchés:  "Libreville, Agent, commerce"</span>
 						 						</div>
 						 					</td>
 						 					<td>
 						 						<ul className="action_job">
-						 							<li><span>Delete</span><a href="#" title=""><i className="la la-trash-o"></i></a></li>
+						 							<li><span>Supprimer</span><a href="#" title=""><i className="la la-trash-o"></i></a></li>
 						 						</ul>
-						 						<span>Never</span>
+						 						<span>3</span>
 						 					</td>
 						 				</tr>
-						 				<tr>
-						 					<td>
-						 						<div className="table-list-title">
-						 							<h3><a href="#" title="">Test Title</a></h3>
-						 							<span>Search Keywords: 2, 60, Crawley RH10 8XH, United Kingdom</span>
-						 						</div>
-						 					</td>
-						 					<td>
-						 						<ul className="action_job">
-						 							<li><span>Delete</span><a href="#" title=""><i className="la la-trash-o"></i></a></li>
-						 						</ul>
-						 						<span>Never</span>
-						 					</td>
-						 				</tr>
-						 				<tr>
-						 					<td>
-						 						<div className="table-list-title">
-						 							<h3><a href="#" title="">Test Title</a></h3>
-						 							<span>Search Keywords: 2, 60, Crawley RH10 8XH, United Kingdom</span>
-						 						</div>
-						 					</td>
-						 					<td>
-						 						<ul className="action_job">
-						 							<li><span>Delete</span><a href="#" title=""><i className="la la-trash-o"></i></a></li>
-						 						</ul>
-						 						<span>Never</span>
-						 					</td>
-						 				</tr>
+						 				
 						 			</tbody>
 						 		</table>
 					 		</div>

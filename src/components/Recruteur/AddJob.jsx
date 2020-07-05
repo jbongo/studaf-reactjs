@@ -112,11 +112,15 @@ const Profile = () => {
 												</select>
 					 						</div>
 					 					</div>
-										 <div className="col-lg-16">
+										 <div className="col-lg-6">
 					 						<span className="pf-title">Ville de l'offre</span>
 					 						<div className="pf-field">
 					 							<input type="text" placeholder="" />
 					 						</div>
+					 					</div>
+
+										 <div className="col-lg-12">
+					 						<button type="submit">Ajouter</button>
 					 					</div>
 					 					
 

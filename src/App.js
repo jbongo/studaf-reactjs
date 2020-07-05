@@ -144,14 +144,14 @@ var loadScript = function(src) {
   document.getElementsByTagName('body').appendChild(tag);
 }
 
-loadScript("./assets/js/jquery.min.js")
-loadScript("./assets/js/modernizr.js")
-loadScript("./assets/js/bootstrap.js")
-loadScript("./assets/js/script.js")
-loadScript("./assets/js/wow.min.js")
-loadScript("./assets/js/slick.min.js")
-loadScript("./assets/js/parallax.js")
-loadScript("./assets/js/select-chosen.js")
+// loadScript("./assets/js/jquery.min.js")
+// loadScript("./assets/js/modernizr.js")
+// loadScript("./assets/js/bootstrap.js")
+// loadScript("./assets/js/script.js")
+// loadScript("./assets/js/wow.min.js")
+// loadScript("./assets/js/slick.min.js")
+// loadScript("./assets/js/parallax.js")
+// loadScript("./assets/js/select-chosen.js")
 
 
 
